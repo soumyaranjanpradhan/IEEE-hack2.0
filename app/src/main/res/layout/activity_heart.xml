@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".heartActivity">
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="284dp"
+        android:layout_height="87dp"
+        android:text="Herbs For Heart:"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="321dp"
+        android:layout_height="399dp"
+        android:layout_marginTop="32dp"
+        android:text="Herbs that can support heart health include garlic, hawthorn, turmeric, ginger, and cayenne pepper. These herbs may help lower blood pressure, improve circulation, reduce inflammation, and support overall cardiovascular function. Consult a healthcare professional before incorporating herbs into your heart health regimen, especially if you have underlying medical conditions.  "
+        android:textSize="24dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+</androidx.constraintlayout.widget.ConstraintLayout>
